@@ -1,3 +1,9 @@
+# Fork of MedMNIST
+This fork removes all dependencies from the setup.py
+This means that installing this repository may give you dependency failures
+
+I did this to avoid pulling in the GPU version of pytorch, which can add > 1 GB of CUDA drivers by default
+
 # MedMNIST: [medmnist.com](https://medmnist.github.io/)
 
 ## Data ([Zenodo](https://doi.org/10.5281/zenodo.10519652)) | Publication ([Nature Scientific Data'23](https://doi.org/10.1038/s41597-022-01721-8) / [ISBI'21](https://doi.org/10.1109/ISBI48211.2021.9434062)) | Preprint ([arXiv](https://arxiv.org/abs/2110.14795)) 

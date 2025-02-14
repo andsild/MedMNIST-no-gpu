@@ -34,15 +34,6 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(),
     install_requires=[
-        "numpy",
-        "pandas",
-        "scikit-learn",
-        "scikit-image",
-        "tqdm",
-        "Pillow",
-        "fire",
-        "torch",
-        "torchvision"
     ],
     zip_safe=True,
     classifiers=[
